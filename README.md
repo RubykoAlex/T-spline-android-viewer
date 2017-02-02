@@ -30,7 +30,7 @@ Structure:
  
 Minimum requirements:
 
-Android Studio 2.2 or higher with the Android plugin for Gradle version 2.2.0 or higher
+Android Studio 2.2 or higher with the Android plugin for Gradle version 2.2.0 or higher. To setup Android Studio to use native code check https://developer.android.com/studio/projects/add-native-code.html
 
 
 
