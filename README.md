@@ -6,16 +6,19 @@ Author: Oleksandr Zavalnyi
 
 
 Overview:
+
 This application is built on the T-SPLINE kernel (written in C++). The kernel reads a t-mesh file (*.tsm), converts it into the T-spline model and generates its trimesh representation on an android device. Using OpenGL API the trimesh data can be further displayed on the device screen. 
 
 
 Used sources:
+
 1. T-SPLINE Library: https://github.com/GrapeTec/T-SPLINE.git 
           
 2. Android NDK samples with Android Studio: https://github.com/googlesamples/android-ndk.git
 
 
 Structure:
+
 Input t-mesh files (*.tsm) are put in the assets folder.
 Main used libraries:  newmat-lib (used for calculations)
                       tspline-lib (T-SPLINE kernel)
@@ -23,8 +26,11 @@ Main used libraries:  newmat-lib (used for calculations)
  
  
  
+ 
 Minimum requirements:
+
 Android Studio 2.2 or higher with the Android plugin for Gradle version 2.2.0 or higher
+
 
 
 Usage:
