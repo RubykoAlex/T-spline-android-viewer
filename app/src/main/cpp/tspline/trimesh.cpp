@@ -34,8 +34,8 @@ Revision_history:
 -------------------------------------------------------------------------------
 */
 
-#include "trimesh.h"
-#include "sstream"
+#include <trimesh.h>
+#include <sstream>
 #ifdef use_namespace
 namespace TSPLINE {
 	using namespace NEWMAT;
@@ -193,6 +193,33 @@ void TriMesh::polygonEnd()
 	_polygon_buffer.clear();
 }
 
+void TriMesh::merge(const TriMeshPtr &mesh)
+{
+	this->faceBegin(mesh->getName());
+	int offset = _points.size();
+
+	P3dVIterator pit = mesh->pointIteratorBegin();
+	N3dVIterator nit = mesh->normalIteratorBegin();
+	for (pit;pit!=mesh->pointIteratorEnd();pit++,nit++)
+	{
+		this->addPointNormal(*(*pit).get(), *(*nit).get());
+	}
+
+	TriVIterator tit = mesh->triangleIteratorBegin();
+	for (tit;tit!=mesh->triangleIteratorEnd();tit++)
+	{
+		Triangle tri;
+		tri.point_indices[0] = (*tit)->point_indices[0] + offset;
+		tri.point_indices[1] = (*tit)->point_indices[1] + offset;
+		tri.point_indices[2] = (*tit)->point_indices[2] + offset;
+		tri.normal_indices[0] = (*tit)->normal_indices[0] + offset;
+		tri.normal_indices[1] = (*tit)->normal_indices[1] + offset;
+		tri.normal_indices[2] = (*tit)->normal_indices[2] + offset;
+		this->addTriangle(tri);
+	}
+	this->faceEnd();
+}
+
 void TriMesh::generateTriangles( const std::vector<long> &row1, const std::vector<long> &row2 )
 {
 	long length1 = row1.size();
@@ -285,6 +312,43 @@ void TriMesh::generateTriangle( const TriEdgePtr &edge1, const TriEdgePtr &edge2
 		triangle2.point_indices[2] = triangle2.normal_indices[2] = edge2->start;
 		addTriangle(triangle2);
 	}
+}
+
+ReturnMatrix TriMesh::matrixTriMesh()
+{
+	Matrix matrix_mesh;
+	bool init_matrix = false;
+	TriVIterator it = this->triangleIteratorBegin();
+	for (it;it!=this->triangleIteratorEnd();it++)
+	{
+		TrianglePtr triangle = *it;
+		Word v0 = triangle->point_indices[0];
+		Word v1 = triangle->point_indices[1];
+		Word v2 = triangle->point_indices[2];
+
+		Point3DPtr point0 = this->pointAt(v0);
+		Point3DPtr point1 = this->pointAt(v1);
+		Point3DPtr point2 = this->pointAt(v2);
+		Vector3DPtr normal0 = this->normalAt(v0);
+		Vector3DPtr normal1 = this->normalAt(v1);
+		Vector3DPtr normal2 = this->normalAt(v2);
+
+		Matrix m(3,6);
+		m << point0->x() << point0->y() << point0->z() << normal0->i() << normal0->j() << normal0->k()
+			<< point1->x() << point1->y() << point1->z() << normal1->i() << normal1->j() << normal1->k()
+			<< point2->x() << point2->y() << point2->z() << normal2->i() << normal2->j() << normal2->k();
+		if (!init_matrix)
+		{
+			matrix_mesh = m;
+			init_matrix = true;
+		}
+		else
+		{
+			matrix_mesh = matrix_mesh & m;
+		}
+	}
+	
+	return matrix_mesh;
 }
 
 #ifdef use_namespace

@@ -34,16 +34,14 @@ Revision_history:
 -------------------------------------------------------------------------------
 */
 
-#include "tspline.h"
-#include "extractor.h"
+#include <tspline.h>
+#include <extractor.h>
 
 
 #ifdef use_namespace
 namespace TSPLINE {
 	using namespace NEWMAT;
 #endif
-
-
 
 int TObject::_obj_count = 0;
 
@@ -689,7 +687,8 @@ void TFace::addBlendingNode( const TNodePtr node )
 	_blending_nodes.push_back(node);
 }
 
-void TFace::findNorthLinks( TLnkVector &links )const {
+void TFace::findNorthLinks( TLnkVector &links )
+{
 	_link_loop->findNorthLinks(links);
 }
 
@@ -703,11 +702,13 @@ void TFace::findSouthLinks( TLnkVector &links )
 	_link_loop->findSouthLinks(links);
 }
 
-void TFace::findEastLinks( TLnkVector &links )const {
+void TFace::findEastLinks( TLnkVector &links )
+{
 	_link_loop->findEastLinks(links);
 }
 
-Real TFace::width()const {
+Real TFace::width()
+{
 	TLnkVector links;
 	findEastLinks(links);
 	Real lengths = 0.0;
@@ -719,7 +720,8 @@ Real TFace::width()const {
 	return lengths;
 }
 
-Real TFace::height()const {
+Real TFace::height()
+{
 	TLnkVector links;
 	findNorthLinks(links);
 	Real lengths = 0.0;

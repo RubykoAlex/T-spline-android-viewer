@@ -34,8 +34,8 @@ Revision_history:
 -------------------------------------------------------------------------------
 */
 
-#include "finder.h"
-#include "visitor.h"
+#include <finder.h>
+#include <visitor.h>
 #ifdef use_namespace
 namespace TSPLINE {
 	using namespace NEWMAT;

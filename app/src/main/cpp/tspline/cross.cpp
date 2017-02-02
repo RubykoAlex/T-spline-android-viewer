@@ -34,10 +34,10 @@ Revision_history:
 -------------------------------------------------------------------------------
 */
 
-#include "cross.h"
-#include "virtual.h"
-#include "finder.h"
-#include "sstream"
+#include <cross.h>
+#include <virtual.h>
+#include <finder.h>
+#include <sstream>
 #ifdef use_namespace
 namespace TSPLINE {
 	using namespace NEWMAT;

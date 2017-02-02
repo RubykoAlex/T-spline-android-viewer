@@ -11,7 +11,7 @@
 #include "tspline.h"
 
 class FileReader{
-        public:
+public:
     FileReader();
     ~FileReader();
 

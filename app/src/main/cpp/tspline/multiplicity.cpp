@@ -38,8 +38,8 @@ Revision_history:
 -------------------------------------------------------------------------------
 */
 
-#include "multiplicity.h"
-#include "finder.h"
+#include <multiplicity.h>
+#include <finder.h>
 
 #ifdef use_namespace
 namespace TSPLINE {

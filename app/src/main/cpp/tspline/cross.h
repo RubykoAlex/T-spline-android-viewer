@@ -47,9 +47,9 @@ Revision_history:
 #ifndef CROSS_H
 #define CROSS_H
 
-#include "tspline.h"
+#include <tspline.h>
 
-#include "unordered_set"
+#include <unordered_set>
 
 #ifdef use_namespace
 namespace TSPLINE {

@@ -34,8 +34,8 @@ Revision_history:
 -------------------------------------------------------------------------------
 */
 
-#include "validator.h"
-#include "sstream"
+#include <validator.h>
+#include <sstream>
 
 #ifdef use_namespace
 namespace TSPLINE {

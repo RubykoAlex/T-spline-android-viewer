@@ -34,9 +34,9 @@ Revision_history:
 -------------------------------------------------------------------------------
 */
 
-#include "visitor.h"
-#include "extractor.h"
-#include "multiplicity.h"
+#include <visitor.h>
+#include <extractor.h>
+#include <multiplicity.h>
 
 #ifdef use_namespace
 namespace TSPLINE {

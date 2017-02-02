@@ -34,8 +34,8 @@ Revision_history:
 -------------------------------------------------------------------------------
 */
 
-#include "editor.h"
-#include "finder.h"
+#include <editor.h>
+#include <finder.h>
 
 #ifdef use_namespace
 namespace TSPLINE {

@@ -49,7 +49,7 @@ Revision_history:
 #ifndef TRIMESH_H
 #define TRIMESH_H
 
-#include "basis.h"
+#include <basis.h>
 
 #ifdef use_namespace
 namespace TSPLINE {
@@ -101,7 +101,8 @@ DECLARE_ASSISTANCES(TriEdge, TriEdg)
   *  @brief  Represent a triangular mesh.
   *  @note  
   *  TriMesh is a simple triangular mesh constructor and manager. 
-*/
+  */
+DECLARE_ASSISTANCES(TriMesh, TriMsh)
 class TriMesh
 {
 public:
@@ -113,6 +114,8 @@ public:
 	void setName(const std::string &name) {_name = name;}
 	/** Get the name. */
 	std::string getName() {return _name;}
+	/** Return trimesh using newmat matrix form. */
+	ReturnMatrix matrixTriMesh();
 
 	/** Add a point (x, y, z). */
 	void addPoint(Real x, Real y, Real z);
@@ -145,6 +148,9 @@ public:
 	/** End a polygon. */
 	void polygonEnd();
 
+	/** Merge another TriMesh. */
+	void merge(const TriMeshPtr &mesh);
+
 	/** Return the number of points. */
 	long sizePoints() {return _points.size();}
 	/** Return the number of normals. */
@@ -171,7 +177,8 @@ public:
 	TriFacVIterator faceIteratorEnd() {return _faces.end();}
 	/** Return the ith point. */
 	Point3DPtr pointAt(unsigned int i) {return _points[i];}
-	
+	/** Return the ith normal. */
+	Vector3DPtr normalAt(unsigned int i) {return _normals[i];}
 protected:
 	std::vector<long>& thisRow();
 	std::vector<long>& lastRow();
@@ -190,7 +197,6 @@ private:
 
 	std::vector<long> _polygon_buffer;
 };
-DECLARE_ASSISTANCES(TriMesh, TriMsh)
 
 #ifdef use_namespace
 }

@@ -49,8 +49,7 @@ Revision_history:
 #ifndef BASIS_H
 #define BASIS_H
 
-
-#include "utils.h"
+#include <utils.h>
 
 #ifdef use_namespace
 namespace TSPLINE {
@@ -60,6 +59,7 @@ namespace TSPLINE {
 DECLARE_ASSISTANCES(Parameter, Par);
 DECLARE_ASSISTANCES(Point3D, P3d);
 DECLARE_ASSISTANCES(Vector3D, N3d);
+DECLARE_ASSISTANCES(Frame3D, F3d);
 DECLARE_ASSISTANCES(ParameterSquare, ParaSqu);
 
 /**  
@@ -134,6 +134,13 @@ public:
 	/** z coordinate */
 	Real z() const {return _coordinates[2];}
 	Real z(Real v) {_coordinates[2] = v; return v;}
+	/** return point as column vector */
+	ReturnMatrix asColumnVector() 
+	{
+		ColumnVector v(3);
+		v << x() << y() << z();
+		v.Release(); return v;
+	}
 public:
 	/** operator = */
 	Point3D& operator=(const Point3D &p) { x(p.x()); y(p.y()); z(p.z()); return *this;}
@@ -183,7 +190,8 @@ public:
 	/** k of vector */
 	Real k() const {return _point.z();}
 	Real k(Real v) {return _point.z(v);}
-
+	/** return vector as column vector */
+	ReturnMatrix asColumnVector() { return _point.asColumnVector(); }
 public:
 	/** operator = */
 	Vector3D& operator=(const Vector3D &n) {_point = n._point; return *this;}
@@ -226,6 +234,34 @@ private:
 };
 
 /**  
+  *  @class  <Frame3D> 
+  *  @brief  A 3D coordinate system.   
+  *  @note  
+  *  A 3D coordinate system is specified using one point and two vectors.
+*/ 
+class Frame3D
+{
+public:
+	Frame3D(const Point3D &origin, const Vector3D &axis_x, const Vector3D &axis_z);
+	~Frame3D();
+public:
+	Point3D o() { return _origin; }
+	Vector3D x() { return _axis_x; }
+	Vector3D y() 
+	{
+		ColumnVector vx = _axis_x.asColumnVector();
+		ColumnVector vz = _axis_z.asColumnVector();
+		ColumnVector vy = CrossProduct(vz, vx);
+		return Vector3D(vy(1), vy(2), vy(3));
+	}
+	Vector3D z() { return _axis_z; }
+private:
+	Point3D _origin;	/** Origin point of the 3D coordinate system*/
+	Vector3D _axis_x;	/** X axis of the 3D coordinate system*/
+	Vector3D _axis_z;	/** Z axis of the 3D coordinate system*/
+};
+
+/**  
   *  @class  <ParameterSquare> 
   *  @brief  A square in the parametric domain.   
   *  @note  
@@ -247,16 +283,16 @@ public:
 	void extendParameter(const Parameter &parameter);
 
 	/** Get and set the minimum s limit of the parameter */
-	Real sMin()const {return _northwest.s();}
+	Real sMin() {return _northwest.s();}
 	Real sMin(Real v) {return _northwest.s(v);}
 	/** Get and set the maximum s limit of the parameter */
-	Real sMax()const {return _southeast.s();}
+	Real sMax() {return _southeast.s();}
 	Real sMax(Real v) {return _southeast.s(v);}
 	/** Get and set the minimum t limit of the parameter */
-	Real tMin()const {return _southeast.t();}
+	Real tMin() {return _southeast.t();}
 	Real tMin(Real v) {return _southeast.t(v);}
 	/** Get and set the maximum t limit of the parameter */
-	Real tMax()const {return _northwest.t();}
+	Real tMax() {return _northwest.t();}
 	Real tMax(Real v) {return _northwest.t(v);}
 	/** Derive the width of the parameter square */
 	Real width() {return sMax() - sMin();}

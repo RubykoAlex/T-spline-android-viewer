@@ -34,7 +34,7 @@ Revision_history:
 -------------------------------------------------------------------------------
 */
 
-#include "utils.h"
+#include <utils.h>
 
 #ifdef use_namespace
 namespace TSPLINE {

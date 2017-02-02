@@ -34,9 +34,9 @@ Revision_history:
 -------------------------------------------------------------------------------
 */
 
-#include "tjunction.h"
-#include "extractor.h"
-#include "visitor.h"
+#include <tjunction.h>
+#include <extractor.h>
+#include <visitor.h>
 
 #ifdef use_namespace
 namespace TSPLINE {

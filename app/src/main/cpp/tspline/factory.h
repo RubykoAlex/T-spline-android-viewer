@@ -48,9 +48,9 @@ Revision_history:
 #ifndef FACTORY_H
 #define FACTORY_H
 
-#include "utils.h"
-#include "tspline.h"
-#include "finder.h"
+#include <utils.h>
+#include <tspline.h>
+#include <finder.h>
 
 #ifdef use_namespace
 namespace TSPLINE {

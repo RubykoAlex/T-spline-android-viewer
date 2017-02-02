@@ -51,8 +51,8 @@ Revision_history:
 #ifndef MULTIPLICITY_H
 #define MULTIPLICITY_H
 
-#include "utils.h"
-#include "tspline.h"
+#include <utils.h>
+#include <tspline.h>
 
 #ifdef use_namespace
 namespace TSPLINE {

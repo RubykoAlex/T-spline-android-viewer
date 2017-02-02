@@ -15,12 +15,13 @@
 #
 
 cmake_minimum_required(VERSION 3.4.1)
-
+#define MATRIX_FORM for tspline library
+add_definitions(-DMATRIX_FORM)
 # build native_app_glue as a static lib
 #add_library(app-glue STATIC
 #            ${ANDROID_NDK}/sources/android/native_app_glue/android_native_app_glue.c)
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz")#-O2
 
 # build the ndk-helper library
 set(ndk_helper_dir src/main/cpp/ndk_helper)

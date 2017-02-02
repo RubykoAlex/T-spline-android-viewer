@@ -43,65 +43,65 @@
 //-------------------------------------------------------------------------
 struct android_app;
 class Engine {
-  TsplineRenderer renderer_;
+    TsplineRenderer renderer_;
 
-  ndk_helper::GLContext* gl_context_;
+    ndk_helper::GLContext* gl_context_;
 
-  bool initialized_resources_;
-  bool has_focus_;
+    bool initialized_resources_;
+    bool has_focus_;
 
-  ndk_helper::DoubletapDetector doubletap_detector_;
-  ndk_helper::PinchDetector pinch_detector_;
-  ndk_helper::DragDetector drag_detector_;
-  ndk_helper::PerfMonitor monitor_;
+    ndk_helper::DoubletapDetector doubletap_detector_;
+    ndk_helper::PinchDetector pinch_detector_;
+    ndk_helper::DragDetector drag_detector_;
+    ndk_helper::PerfMonitor monitor_;
 
-  ndk_helper::TapCamera tap_camera_;
+    ndk_helper::TapCamera tap_camera_;
 
-  android_app* app_;
+    android_app* app_;
 
-  ASensorManager* sensor_manager_;
-  const ASensor* accelerometer_sensor_;
-  ASensorEventQueue* sensor_event_queue_;
+    ASensorManager* sensor_manager_;
+    const ASensor* accelerometer_sensor_;
+    ASensorEventQueue* sensor_event_queue_;
 
-  void UpdateFPS(float fFPS);
-  void ShowUI();
-  void TransformPosition(ndk_helper::Vec2& vec);
-
-
- public:
-  static void HandleCmd(struct android_app* app, int32_t cmd);
-  static int32_t HandleInput(android_app* app, AInputEvent* event);
-
-  Engine();
-  ~Engine();
-  void SetState(android_app* state);
-  int InitDisplay();
-  void LoadResources();
-  void UnloadResources();
-  void DrawFrame();
-  void TermDisplay();
-  void TrimMemory();
-  bool IsReady();
+    void UpdateFPS(float fFPS);
+    void ShowUI();
+    void TransformPosition(ndk_helper::Vec2& vec);
 
 
-  void UpdatePosition(AInputEvent* event, int32_t iIndex, float& fX, float& fY);
+public:
+    static void HandleCmd(struct android_app* app, int32_t cmd);
+    static int32_t HandleInput(android_app* app, AInputEvent* event);
 
-  void InitSensors();
-  void ProcessSensors(int32_t id);
-  void SuspendSensors();
-  void ResumeSensors();
+    Engine();
+    ~Engine();
+    void SetState(android_app* state);
+    int InitDisplay();
+    void LoadResources();
+    void UnloadResources();
+    void DrawFrame();
+    void TermDisplay();
+    void TrimMemory();
+    bool IsReady();
+
+
+    void UpdatePosition(AInputEvent* event, int32_t iIndex, float& fX, float& fY);
+
+    void InitSensors();
+    void ProcessSensors(int32_t id);
+    void SuspendSensors();
+    void ResumeSensors();
 };
 
 //-------------------------------------------------------------------------
 // Ctor
 //-------------------------------------------------------------------------
 Engine::Engine()
-    : initialized_resources_(false),
-      has_focus_(false),
-      app_(NULL),
-      sensor_manager_(NULL),
-      accelerometer_sensor_(NULL),
-      sensor_event_queue_(NULL) {
+        : initialized_resources_(false),
+          has_focus_(false),
+          app_(NULL),
+          sensor_manager_(NULL),
+          accelerometer_sensor_(NULL),
+          sensor_event_queue_(NULL) {
   gl_context_ = ndk_helper::GLContext::GetInstance();
 }
 
@@ -201,7 +201,7 @@ int32_t Engine::HandleInput(android_app* app, AInputEvent* event) {
   Engine* eng = (Engine*)app->userData;
   if (AInputEvent_getType(event) == AINPUT_EVENT_TYPE_MOTION) {
     ndk_helper::GESTURE_STATE doubleTapState =
-        eng->doubletap_detector_.Detect(event);
+            eng->doubletap_detector_.Detect(event);
     ndk_helper::GESTURE_STATE dragState = eng->drag_detector_.Detect(event);
     ndk_helper::GESTURE_STATE pinchState = eng->pinch_detector_.Detect(event);
 
@@ -265,29 +265,29 @@ void Engine::HandleCmd(struct android_app* app, int32_t cmd) {
         eng->InitDisplay();
         eng->DrawFrame();
       }
-      break;
+          break;
     case APP_CMD_TERM_WINDOW:
       // The window is being hidden or closed, clean it up.
       eng->TermDisplay();
-      eng->has_focus_ = false;
-      break;
+          eng->has_focus_ = false;
+          break;
     case APP_CMD_STOP:
       break;
     case APP_CMD_GAINED_FOCUS:
       eng->ResumeSensors();
-      // Start animation
-      eng->has_focus_ = true;
-      break;
+          // Start animation
+          eng->has_focus_ = true;
+          break;
     case APP_CMD_LOST_FOCUS:
       eng->SuspendSensors();
-      // Also stop animating.
-      eng->has_focus_ = false;
-      eng->DrawFrame();
-      break;
+          // Also stop animating.
+          eng->has_focus_ = false;
+          eng->DrawFrame();
+          break;
     case APP_CMD_LOW_MEMORY:
       // Free up GL resources
       eng->TrimMemory();
-      break;
+          break;
   }
 }
 
@@ -297,9 +297,9 @@ void Engine::HandleCmd(struct android_app* app, int32_t cmd) {
 void Engine::InitSensors() {
   sensor_manager_ = ASensorManager_getInstance();
   accelerometer_sensor_ = ASensorManager_getDefaultSensor(
-      sensor_manager_, ASENSOR_TYPE_ACCELEROMETER);
+          sensor_manager_, ASENSOR_TYPE_ACCELEROMETER);
   sensor_event_queue_ = ASensorManager_createEventQueue(
-      sensor_manager_, app_->looper, LOOPER_ID_USER, NULL, NULL);
+          sensor_manager_, app_->looper, LOOPER_ID_USER, NULL, NULL);
 }
 
 void Engine::ProcessSensors(int32_t id) {
@@ -349,8 +349,8 @@ bool Engine::IsReady() {
 
 void Engine::TransformPosition(ndk_helper::Vec2& vec) {
   vec = ndk_helper::Vec2(2.0f, 2.0f) * vec /
-            ndk_helper::Vec2(gl_context_->GetScreenWidth(),
-                             gl_context_->GetScreenHeight()) -
+        ndk_helper::Vec2(gl_context_->GetScreenWidth(),
+                         gl_context_->GetScreenHeight()) -
         ndk_helper::Vec2(1.f, 1.f);
 }
 
@@ -382,19 +382,7 @@ void Engine::UpdateFPS(float fFPS) {
 
 Engine g_engine;
 
-/*
-extern "C"
-jstring
-Java_alex_t_1spline_t_1spline_TsplineNativeActivity_stringFromJNI(JNIEnv* env, jobject thiz, jstring z) {
-  char s[100];
-  s[0] = 0;
-  const char *aa = env->GetStringUTFChars( z, 0 );
-  strcat(s, aa);
- // ndk_helper::JNIHelper& helper = *ndk_helper::JNIHelper::GetInstance();
- // helper.ConvertString(env->GetArrayLength())
-   return env->NewStringUTF(s);
-}
-*/
+
 
 
 

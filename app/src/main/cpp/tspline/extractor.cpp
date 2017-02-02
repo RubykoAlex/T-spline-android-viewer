@@ -34,8 +34,8 @@ Revision_history:
 -------------------------------------------------------------------------------
 */
 
-#include "extractor.h"
-#include "visitor.h"
+#include <extractor.h>
+#include <visitor.h>
 
 #ifdef use_namespace
 namespace TSPLINE {
@@ -330,6 +330,26 @@ Parameter TExtractor::extractParameterFromTVertex( const TVertexPtr &vertex )
 	{
 		return Parameter(0.0, 0.0);
 	}
+}
+
+TSPLINE::Parameter TExtractor::extractParameterFromTSpline(const TSplinePtr &spline)
+{
+	Parameter pa(0.0, 0.0);
+	TImagePtr timage = spline->getTImage();
+	for (TFacVIterator it = timage->faceIteratorBegin();
+		it!=timage->faceIteratorEnd();it++)
+	{
+		if((*it)->southEast().s() > pa.s())
+			pa.s((*it)->southEast().s());
+		else if((*it)->northWest().s() > pa.s())
+			pa.s((*it)->northWest().s());
+
+		if((*it)->southEast().t() > pa.t())
+			pa.t((*it)->southEast().t());
+		else if((*it)->northWest().t() > pa.t())
+			pa.t((*it)->northWest().t());
+	}
+	return pa;
 }
 
 TVtxVector TExtractor::extractTVerticesFromTFace( const TFacePtr &face )

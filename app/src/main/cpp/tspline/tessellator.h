@@ -49,11 +49,11 @@ Revision_history:
 #ifndef TTESSELLATOR_H
 #define TTESSELLATOR_H
 
-#include "utils.h"
-#include "tspline.h"
-#include "finder.h"
-#include "trimesh.h"
-#include "derivator.h"
+#include <utils.h>
+#include <tspline.h>
+#include <finder.h>
+#include <trimesh.h>
+#include <derivator.h>
 
 #ifdef use_namespace
 namespace TSPLINE {

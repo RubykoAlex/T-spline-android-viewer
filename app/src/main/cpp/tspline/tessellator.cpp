@@ -34,8 +34,8 @@ Revision_history:
 -------------------------------------------------------------------------------
 */
 
-#include "tessellator.h"
-#include "extractor.h"
+#include <tessellator.h>
+#include <extractor.h>
 
 #ifdef use_namespace
 namespace TSPLINE {
@@ -86,6 +86,29 @@ TriMeshPtr TTessellator::interpolateFace( const std::string &face )
 
 TriMeshPtr TTessellator::interpolateAll()
 {
+#ifdef USE_OMP
+	TriMshVector trimeshes;
+	TFacVector faces;
+	_finder->findObjects<TFace>(faces);
+
+#pragma omp parallel for
+	for (int i = 0;i<faces.size();i++)
+	{
+		TFacePtr face = faces[i];
+		TriMeshPtr trimesh = makePtr<TriMesh>(face->getName());
+
+		trimesh = interpolateFace(face);
+		trimeshes.push_back(trimesh);
+	}
+
+	TriMeshPtr tri_mesh = makePtr<TriMesh>(_spline->getName());
+	TriMshVIterator it = trimeshes.begin();
+	for (it;it!=trimeshes.end();it++)
+	{
+		tri_mesh->merge(*it);
+	}
+	return tri_mesh;
+#else
 	TFacVector faces;
 	_finder->findObjects<TFace>(faces);
 	TriMeshPtr tri_mesh = makePtr<TriMesh>(_spline->getName());
@@ -98,6 +121,7 @@ TriMeshPtr TTessellator::interpolateAll()
 		tri_mesh->faceEnd();
 	}
 	return tri_mesh;
+#endif // USE_OMP
 }
 
 void TTessellator::calculateResolution( const TFacePtr &face, Real ratio /*= 0.1*/ )
@@ -280,14 +304,14 @@ void TLinkTessellator::process( const TriMeshPtr &tri_mesh )
 	Point3D point; Vector3D normal;
 	for (long i=0;i<count;i++)
 	{
-		if (_derivator->zeroAndFirstOrderDerive(ps, point, normal))
+		if (_derivator->pointAndNormalDerive(ps, point, normal))
 		{
 			tri_mesh->addPointNormal(point, normal);
 		}
 		ps += dp;
 	}
 
-	if (_derivator->zeroAndFirstOrderDerive(pe, point, normal))
+	if (_derivator->pointAndNormalDerive(pe, point, normal))
 	{
 		tri_mesh->addPointNormal(point, normal);
 	}
@@ -316,14 +340,14 @@ void TParameterTessellator::process( const TriMeshPtr &tri_mesh )
 	Point3D point; Vector3D normal;
 	for (long i=0;i<count;i++)
 	{
-		if (_derivator->zeroAndFirstOrderDerive(ps, point, normal))
+		if (_derivator->pointAndNormalDerive(ps, point, normal))
 		{
 			tri_mesh->addPointNormal(point, normal);
 		}
 		ps += dp;
 	}
 
-	if (_derivator->zeroAndFirstOrderDerive(_end, point, normal))
+	if (_derivator->pointAndNormalDerive(_end, point, normal))
 	{
 		tri_mesh->addPointNormal(point, normal);
 	}

@@ -57,25 +57,25 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 
 build cmake_order_depends_target_rhbuilder-lib: phony || ../../../../build/intermediates/cmake/release/obj/x86_64/libnewmat-lib.so ../../../../build/intermediates/cmake/release/obj/x86_64/libtspline-lib.so
 build CMakeFiles/rhbuilder-lib.dir/src/main/cpp/rhbuilder/rhparser.cpp.o: CXX_COMPILER__rhbuilder-lib ../../../../src/main/cpp/rhbuilder/rhparser.cpp || cmake_order_depends_target_rhbuilder-lib
-  DEFINES = -Drhbuilder_lib_EXPORTS
+  DEFINES = -DMATRIX_FORM -Drhbuilder_lib_EXPORTS
   DEP_FILE = CMakeFiles/rhbuilder-lib.dir/src/main/cpp/rhbuilder/rhparser.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/rhbuilder/rhparser.cpp
   OBJECT_DIR = CMakeFiles/rhbuilder-lib.dir
   OBJECT_FILE_DIR = CMakeFiles/rhbuilder-lib.dir/src/main/cpp/rhbuilder
 build CMakeFiles/rhbuilder-lib.dir/src/main/cpp/rhbuilder/rhspreader.cpp.o: CXX_COMPILER__rhbuilder-lib ../../../../src/main/cpp/rhbuilder/rhspreader.cpp || cmake_order_depends_target_rhbuilder-lib
-  DEFINES = -Drhbuilder_lib_EXPORTS
+  DEFINES = -DMATRIX_FORM -Drhbuilder_lib_EXPORTS
   DEP_FILE = CMakeFiles/rhbuilder-lib.dir/src/main/cpp/rhbuilder/rhspreader.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/rhbuilder/rhspreader.cpp
   OBJECT_DIR = CMakeFiles/rhbuilder-lib.dir
   OBJECT_FILE_DIR = CMakeFiles/rhbuilder-lib.dir/src/main/cpp/rhbuilder
 build CMakeFiles/rhbuilder-lib.dir/src/main/cpp/rhbuilder/rhbuilder.cpp.o: CXX_COMPILER__rhbuilder-lib ../../../../src/main/cpp/rhbuilder/rhbuilder.cpp || cmake_order_depends_target_rhbuilder-lib
-  DEFINES = -Drhbuilder_lib_EXPORTS
+  DEFINES = -DMATRIX_FORM -Drhbuilder_lib_EXPORTS
   DEP_FILE = CMakeFiles/rhbuilder-lib.dir/src/main/cpp/rhbuilder/rhbuilder.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/rhbuilder/rhbuilder.cpp
   OBJECT_DIR = CMakeFiles/rhbuilder-lib.dir
@@ -89,7 +89,7 @@ build CMakeFiles/rhbuilder-lib.dir/src/main/cpp/rhbuilder/rhbuilder.cpp.o: CXX_C
 # Link the shared library ../../../../build/intermediates/cmake/release/obj/x86_64/librhbuilder-lib.so
 
 build ../../../../build/intermediates/cmake/release/obj/x86_64/librhbuilder-lib.so: CXX_SHARED_LIBRARY_LINKER__rhbuilder-lib CMakeFiles/rhbuilder-lib.dir/src/main/cpp/rhbuilder/rhparser.cpp.o CMakeFiles/rhbuilder-lib.dir/src/main/cpp/rhbuilder/rhspreader.cpp.o CMakeFiles/rhbuilder-lib.dir/src/main/cpp/rhbuilder/rhbuilder.cpp.o | ../../../../build/intermediates/cmake/release/obj/x86_64/libtspline-lib.so ../../../../build/intermediates/cmake/release/obj/x86_64/libnewmat-lib.so || ../../../../build/intermediates/cmake/release/obj/x86_64/libnewmat-lib.so ../../../../build/intermediates/cmake/release/obj/x86_64/libtspline-lib.so
-  LANGUAGE_COMPILE_FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG
+  LANGUAGE_COMPILE_FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG
   LINK_FLAGS = -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now
   LINK_LIBRARIES = ../../../../build/intermediates/cmake/release/obj/x86_64/libtspline-lib.so ../../../../build/intermediates/cmake/release/obj/x86_64/libnewmat-lib.so -lm "/home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/libgnustl_static.a"
   OBJECT_DIR = CMakeFiles/rhbuilder-lib.dir
@@ -103,201 +103,201 @@ build ../../../../build/intermediates/cmake/release/obj/x86_64/librhbuilder-lib.
 # Object build statements for SHARED_LIBRARY target newmat-lib
 
 build CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/bandmat.cpp.o: CXX_COMPILER__newmat-lib ../../../../src/main/cpp/newmat/bandmat.cpp
-  DEFINES = -Dnewmat_lib_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dnewmat_lib_EXPORTS
   DEP_FILE = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/bandmat.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/bandmat.cpp
   OBJECT_DIR = CMakeFiles/newmat-lib.dir
   OBJECT_FILE_DIR = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat
 build CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/cholesky.cpp.o: CXX_COMPILER__newmat-lib ../../../../src/main/cpp/newmat/cholesky.cpp
-  DEFINES = -Dnewmat_lib_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dnewmat_lib_EXPORTS
   DEP_FILE = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/cholesky.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/cholesky.cpp
   OBJECT_DIR = CMakeFiles/newmat-lib.dir
   OBJECT_FILE_DIR = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat
 build CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/evalue.cpp.o: CXX_COMPILER__newmat-lib ../../../../src/main/cpp/newmat/evalue.cpp
-  DEFINES = -Dnewmat_lib_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dnewmat_lib_EXPORTS
   DEP_FILE = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/evalue.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/evalue.cpp
   OBJECT_DIR = CMakeFiles/newmat-lib.dir
   OBJECT_FILE_DIR = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat
 build CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/fft.cpp.o: CXX_COMPILER__newmat-lib ../../../../src/main/cpp/newmat/fft.cpp
-  DEFINES = -Dnewmat_lib_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dnewmat_lib_EXPORTS
   DEP_FILE = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/fft.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/fft.cpp
   OBJECT_DIR = CMakeFiles/newmat-lib.dir
   OBJECT_FILE_DIR = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat
 build CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/hholder.cpp.o: CXX_COMPILER__newmat-lib ../../../../src/main/cpp/newmat/hholder.cpp
-  DEFINES = -Dnewmat_lib_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dnewmat_lib_EXPORTS
   DEP_FILE = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/hholder.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/hholder.cpp
   OBJECT_DIR = CMakeFiles/newmat-lib.dir
   OBJECT_FILE_DIR = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat
 build CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/jacobi.cpp.o: CXX_COMPILER__newmat-lib ../../../../src/main/cpp/newmat/jacobi.cpp
-  DEFINES = -Dnewmat_lib_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dnewmat_lib_EXPORTS
   DEP_FILE = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/jacobi.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/jacobi.cpp
   OBJECT_DIR = CMakeFiles/newmat-lib.dir
   OBJECT_FILE_DIR = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat
 build CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/myexcept.cpp.o: CXX_COMPILER__newmat-lib ../../../../src/main/cpp/newmat/myexcept.cpp
-  DEFINES = -Dnewmat_lib_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dnewmat_lib_EXPORTS
   DEP_FILE = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/myexcept.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/myexcept.cpp
   OBJECT_DIR = CMakeFiles/newmat-lib.dir
   OBJECT_FILE_DIR = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat
 build CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/newmat1.cpp.o: CXX_COMPILER__newmat-lib ../../../../src/main/cpp/newmat/newmat1.cpp
-  DEFINES = -Dnewmat_lib_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dnewmat_lib_EXPORTS
   DEP_FILE = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/newmat1.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/newmat1.cpp
   OBJECT_DIR = CMakeFiles/newmat-lib.dir
   OBJECT_FILE_DIR = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat
 build CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/newmat2.cpp.o: CXX_COMPILER__newmat-lib ../../../../src/main/cpp/newmat/newmat2.cpp
-  DEFINES = -Dnewmat_lib_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dnewmat_lib_EXPORTS
   DEP_FILE = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/newmat2.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/newmat2.cpp
   OBJECT_DIR = CMakeFiles/newmat-lib.dir
   OBJECT_FILE_DIR = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat
 build CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/newmat3.cpp.o: CXX_COMPILER__newmat-lib ../../../../src/main/cpp/newmat/newmat3.cpp
-  DEFINES = -Dnewmat_lib_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dnewmat_lib_EXPORTS
   DEP_FILE = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/newmat3.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/newmat3.cpp
   OBJECT_DIR = CMakeFiles/newmat-lib.dir
   OBJECT_FILE_DIR = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat
 build CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/newmat4.cpp.o: CXX_COMPILER__newmat-lib ../../../../src/main/cpp/newmat/newmat4.cpp
-  DEFINES = -Dnewmat_lib_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dnewmat_lib_EXPORTS
   DEP_FILE = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/newmat4.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/newmat4.cpp
   OBJECT_DIR = CMakeFiles/newmat-lib.dir
   OBJECT_FILE_DIR = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat
 build CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/newmat5.cpp.o: CXX_COMPILER__newmat-lib ../../../../src/main/cpp/newmat/newmat5.cpp
-  DEFINES = -Dnewmat_lib_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dnewmat_lib_EXPORTS
   DEP_FILE = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/newmat5.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/newmat5.cpp
   OBJECT_DIR = CMakeFiles/newmat-lib.dir
   OBJECT_FILE_DIR = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat
 build CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/newmat6.cpp.o: CXX_COMPILER__newmat-lib ../../../../src/main/cpp/newmat/newmat6.cpp
-  DEFINES = -Dnewmat_lib_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dnewmat_lib_EXPORTS
   DEP_FILE = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/newmat6.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/newmat6.cpp
   OBJECT_DIR = CMakeFiles/newmat-lib.dir
   OBJECT_FILE_DIR = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat
 build CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/newmat7.cpp.o: CXX_COMPILER__newmat-lib ../../../../src/main/cpp/newmat/newmat7.cpp
-  DEFINES = -Dnewmat_lib_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dnewmat_lib_EXPORTS
   DEP_FILE = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/newmat7.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/newmat7.cpp
   OBJECT_DIR = CMakeFiles/newmat-lib.dir
   OBJECT_FILE_DIR = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat
 build CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/newmat8.cpp.o: CXX_COMPILER__newmat-lib ../../../../src/main/cpp/newmat/newmat8.cpp
-  DEFINES = -Dnewmat_lib_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dnewmat_lib_EXPORTS
   DEP_FILE = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/newmat8.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/newmat8.cpp
   OBJECT_DIR = CMakeFiles/newmat-lib.dir
   OBJECT_FILE_DIR = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat
 build CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/newmat9.cpp.o: CXX_COMPILER__newmat-lib ../../../../src/main/cpp/newmat/newmat9.cpp
-  DEFINES = -Dnewmat_lib_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dnewmat_lib_EXPORTS
   DEP_FILE = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/newmat9.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/newmat9.cpp
   OBJECT_DIR = CMakeFiles/newmat-lib.dir
   OBJECT_FILE_DIR = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat
 build CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/newmatex.cpp.o: CXX_COMPILER__newmat-lib ../../../../src/main/cpp/newmat/newmatex.cpp
-  DEFINES = -Dnewmat_lib_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dnewmat_lib_EXPORTS
   DEP_FILE = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/newmatex.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/newmatex.cpp
   OBJECT_DIR = CMakeFiles/newmat-lib.dir
   OBJECT_FILE_DIR = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat
 build CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/newmatnl.cpp.o: CXX_COMPILER__newmat-lib ../../../../src/main/cpp/newmat/newmatnl.cpp
-  DEFINES = -Dnewmat_lib_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dnewmat_lib_EXPORTS
   DEP_FILE = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/newmatnl.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/newmatnl.cpp
   OBJECT_DIR = CMakeFiles/newmat-lib.dir
   OBJECT_FILE_DIR = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat
 build CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/newmatrm.cpp.o: CXX_COMPILER__newmat-lib ../../../../src/main/cpp/newmat/newmatrm.cpp
-  DEFINES = -Dnewmat_lib_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dnewmat_lib_EXPORTS
   DEP_FILE = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/newmatrm.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/newmatrm.cpp
   OBJECT_DIR = CMakeFiles/newmat-lib.dir
   OBJECT_FILE_DIR = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat
 build CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/solution.cpp.o: CXX_COMPILER__newmat-lib ../../../../src/main/cpp/newmat/solution.cpp
-  DEFINES = -Dnewmat_lib_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dnewmat_lib_EXPORTS
   DEP_FILE = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/solution.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/solution.cpp
   OBJECT_DIR = CMakeFiles/newmat-lib.dir
   OBJECT_FILE_DIR = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat
 build CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/sort.cpp.o: CXX_COMPILER__newmat-lib ../../../../src/main/cpp/newmat/sort.cpp
-  DEFINES = -Dnewmat_lib_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dnewmat_lib_EXPORTS
   DEP_FILE = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/sort.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/sort.cpp
   OBJECT_DIR = CMakeFiles/newmat-lib.dir
   OBJECT_FILE_DIR = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat
 build CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/submat.cpp.o: CXX_COMPILER__newmat-lib ../../../../src/main/cpp/newmat/submat.cpp
-  DEFINES = -Dnewmat_lib_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dnewmat_lib_EXPORTS
   DEP_FILE = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/submat.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/submat.cpp
   OBJECT_DIR = CMakeFiles/newmat-lib.dir
   OBJECT_FILE_DIR = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat
 build CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/svd.cpp.o: CXX_COMPILER__newmat-lib ../../../../src/main/cpp/newmat/svd.cpp
-  DEFINES = -Dnewmat_lib_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dnewmat_lib_EXPORTS
   DEP_FILE = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/svd.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/svd.cpp
   OBJECT_DIR = CMakeFiles/newmat-lib.dir
   OBJECT_FILE_DIR = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat
 build CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/newfft.cpp.o: CXX_COMPILER__newmat-lib ../../../../src/main/cpp/newmat/newfft.cpp
-  DEFINES = -Dnewmat_lib_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dnewmat_lib_EXPORTS
   DEP_FILE = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/newfft.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/newfft.cpp
   OBJECT_DIR = CMakeFiles/newmat-lib.dir
   OBJECT_FILE_DIR = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat
 build CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/nm_misc.cpp.o: CXX_COMPILER__newmat-lib ../../../../src/main/cpp/newmat/nm_misc.cpp
-  DEFINES = -Dnewmat_lib_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dnewmat_lib_EXPORTS
   DEP_FILE = CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/nm_misc.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/nm_misc.cpp
   OBJECT_DIR = CMakeFiles/newmat-lib.dir
@@ -311,7 +311,7 @@ build CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/nm_misc.cpp.o: CXX_COMPILER_
 # Link the shared library ../../../../build/intermediates/cmake/release/obj/x86_64/libnewmat-lib.so
 
 build ../../../../build/intermediates/cmake/release/obj/x86_64/libnewmat-lib.so: CXX_SHARED_LIBRARY_LINKER__newmat-lib CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/bandmat.cpp.o CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/cholesky.cpp.o CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/evalue.cpp.o CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/fft.cpp.o CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/hholder.cpp.o CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/jacobi.cpp.o CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/myexcept.cpp.o CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/newmat1.cpp.o CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/newmat2.cpp.o CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/newmat3.cpp.o CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/newmat4.cpp.o CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/newmat5.cpp.o CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/newmat6.cpp.o CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/newmat7.cpp.o CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/newmat8.cpp.o CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/newmat9.cpp.o CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/newmatex.cpp.o CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/newmatnl.cpp.o CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/newmatrm.cpp.o CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/solution.cpp.o CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/sort.cpp.o CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/submat.cpp.o CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/svd.cpp.o CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/newfft.cpp.o CMakeFiles/newmat-lib.dir/src/main/cpp/newmat/nm_misc.cpp.o
-  LANGUAGE_COMPILE_FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG
+  LANGUAGE_COMPILE_FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG
   LINK_FLAGS = -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now
   LINK_LIBRARIES = -lm "/home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/libgnustl_static.a"
   OBJECT_DIR = CMakeFiles/newmat-lib.dir
@@ -330,145 +330,145 @@ build ../../../../build/intermediates/cmake/release/obj/x86_64/libnewmat-lib.so:
 
 build cmake_order_depends_target_tspline-lib: phony || ../../../../build/intermediates/cmake/release/obj/x86_64/libnewmat-lib.so
 build CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/utils.cpp.o: CXX_COMPILER__tspline-lib ../../../../src/main/cpp/tspline/utils.cpp || cmake_order_depends_target_tspline-lib
-  DEFINES = -Dtspline_lib_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dtspline_lib_EXPORTS
   DEP_FILE = CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/utils.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/tspline/utils.cpp
   OBJECT_DIR = CMakeFiles/tspline-lib.dir
   OBJECT_FILE_DIR = CMakeFiles/tspline-lib.dir/src/main/cpp/tspline
 build CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/basis.cpp.o: CXX_COMPILER__tspline-lib ../../../../src/main/cpp/tspline/basis.cpp || cmake_order_depends_target_tspline-lib
-  DEFINES = -Dtspline_lib_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dtspline_lib_EXPORTS
   DEP_FILE = CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/basis.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/tspline/basis.cpp
   OBJECT_DIR = CMakeFiles/tspline-lib.dir
   OBJECT_FILE_DIR = CMakeFiles/tspline-lib.dir/src/main/cpp/tspline
 build CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/convert.cpp.o: CXX_COMPILER__tspline-lib ../../../../src/main/cpp/tspline/convert.cpp || cmake_order_depends_target_tspline-lib
-  DEFINES = -Dtspline_lib_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dtspline_lib_EXPORTS
   DEP_FILE = CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/convert.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/tspline/convert.cpp
   OBJECT_DIR = CMakeFiles/tspline-lib.dir
   OBJECT_FILE_DIR = CMakeFiles/tspline-lib.dir/src/main/cpp/tspline
 build CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/splbase.cpp.o: CXX_COMPILER__tspline-lib ../../../../src/main/cpp/tspline/splbase.cpp || cmake_order_depends_target_tspline-lib
-  DEFINES = -Dtspline_lib_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dtspline_lib_EXPORTS
   DEP_FILE = CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/splbase.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/tspline/splbase.cpp
   OBJECT_DIR = CMakeFiles/tspline-lib.dir
   OBJECT_FILE_DIR = CMakeFiles/tspline-lib.dir/src/main/cpp/tspline
 build CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/tspline.cpp.o: CXX_COMPILER__tspline-lib ../../../../src/main/cpp/tspline/tspline.cpp || cmake_order_depends_target_tspline-lib
-  DEFINES = -Dtspline_lib_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dtspline_lib_EXPORTS
   DEP_FILE = CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/tspline.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/tspline/tspline.cpp
   OBJECT_DIR = CMakeFiles/tspline-lib.dir
   OBJECT_FILE_DIR = CMakeFiles/tspline-lib.dir/src/main/cpp/tspline
 build CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/factory.cpp.o: CXX_COMPILER__tspline-lib ../../../../src/main/cpp/tspline/factory.cpp || cmake_order_depends_target_tspline-lib
-  DEFINES = -Dtspline_lib_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dtspline_lib_EXPORTS
   DEP_FILE = CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/factory.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/tspline/factory.cpp
   OBJECT_DIR = CMakeFiles/tspline-lib.dir
   OBJECT_FILE_DIR = CMakeFiles/tspline-lib.dir/src/main/cpp/tspline
 build CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/virtual.cpp.o: CXX_COMPILER__tspline-lib ../../../../src/main/cpp/tspline/virtual.cpp || cmake_order_depends_target_tspline-lib
-  DEFINES = -Dtspline_lib_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dtspline_lib_EXPORTS
   DEP_FILE = CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/virtual.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/tspline/virtual.cpp
   OBJECT_DIR = CMakeFiles/tspline-lib.dir
   OBJECT_FILE_DIR = CMakeFiles/tspline-lib.dir/src/main/cpp/tspline
 build CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/tjunction.cpp.o: CXX_COMPILER__tspline-lib ../../../../src/main/cpp/tspline/tjunction.cpp || cmake_order_depends_target_tspline-lib
-  DEFINES = -Dtspline_lib_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dtspline_lib_EXPORTS
   DEP_FILE = CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/tjunction.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/tspline/tjunction.cpp
   OBJECT_DIR = CMakeFiles/tspline-lib.dir
   OBJECT_FILE_DIR = CMakeFiles/tspline-lib.dir/src/main/cpp/tspline
 build CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/multiplicity.cpp.o: CXX_COMPILER__tspline-lib ../../../../src/main/cpp/tspline/multiplicity.cpp || cmake_order_depends_target_tspline-lib
-  DEFINES = -Dtspline_lib_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dtspline_lib_EXPORTS
   DEP_FILE = CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/multiplicity.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/tspline/multiplicity.cpp
   OBJECT_DIR = CMakeFiles/tspline-lib.dir
   OBJECT_FILE_DIR = CMakeFiles/tspline-lib.dir/src/main/cpp/tspline
 build CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/visitor.cpp.o: CXX_COMPILER__tspline-lib ../../../../src/main/cpp/tspline/visitor.cpp || cmake_order_depends_target_tspline-lib
-  DEFINES = -Dtspline_lib_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dtspline_lib_EXPORTS
   DEP_FILE = CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/visitor.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/tspline/visitor.cpp
   OBJECT_DIR = CMakeFiles/tspline-lib.dir
   OBJECT_FILE_DIR = CMakeFiles/tspline-lib.dir/src/main/cpp/tspline
 build CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/finder.cpp.o: CXX_COMPILER__tspline-lib ../../../../src/main/cpp/tspline/finder.cpp || cmake_order_depends_target_tspline-lib
-  DEFINES = -Dtspline_lib_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dtspline_lib_EXPORTS
   DEP_FILE = CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/finder.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/tspline/finder.cpp
   OBJECT_DIR = CMakeFiles/tspline-lib.dir
   OBJECT_FILE_DIR = CMakeFiles/tspline-lib.dir/src/main/cpp/tspline
 build CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/extractor.cpp.o: CXX_COMPILER__tspline-lib ../../../../src/main/cpp/tspline/extractor.cpp || cmake_order_depends_target_tspline-lib
-  DEFINES = -Dtspline_lib_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dtspline_lib_EXPORTS
   DEP_FILE = CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/extractor.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/tspline/extractor.cpp
   OBJECT_DIR = CMakeFiles/tspline-lib.dir
   OBJECT_FILE_DIR = CMakeFiles/tspline-lib.dir/src/main/cpp/tspline
 build CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/editor.cpp.o: CXX_COMPILER__tspline-lib ../../../../src/main/cpp/tspline/editor.cpp || cmake_order_depends_target_tspline-lib
-  DEFINES = -Dtspline_lib_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dtspline_lib_EXPORTS
   DEP_FILE = CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/editor.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/tspline/editor.cpp
   OBJECT_DIR = CMakeFiles/tspline-lib.dir
   OBJECT_FILE_DIR = CMakeFiles/tspline-lib.dir/src/main/cpp/tspline
 build CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/derivator.cpp.o: CXX_COMPILER__tspline-lib ../../../../src/main/cpp/tspline/derivator.cpp || cmake_order_depends_target_tspline-lib
-  DEFINES = -Dtspline_lib_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dtspline_lib_EXPORTS
   DEP_FILE = CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/derivator.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/tspline/derivator.cpp
   OBJECT_DIR = CMakeFiles/tspline-lib.dir
   OBJECT_FILE_DIR = CMakeFiles/tspline-lib.dir/src/main/cpp/tspline
 build CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/cross.cpp.o: CXX_COMPILER__tspline-lib ../../../../src/main/cpp/tspline/cross.cpp || cmake_order_depends_target_tspline-lib
-  DEFINES = -Dtspline_lib_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dtspline_lib_EXPORTS
   DEP_FILE = CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/cross.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/tspline/cross.cpp
   OBJECT_DIR = CMakeFiles/tspline-lib.dir
   OBJECT_FILE_DIR = CMakeFiles/tspline-lib.dir/src/main/cpp/tspline
 build CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/trimesh.cpp.o: CXX_COMPILER__tspline-lib ../../../../src/main/cpp/tspline/trimesh.cpp || cmake_order_depends_target_tspline-lib
-  DEFINES = -Dtspline_lib_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dtspline_lib_EXPORTS
   DEP_FILE = CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/trimesh.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/tspline/trimesh.cpp
   OBJECT_DIR = CMakeFiles/tspline-lib.dir
   OBJECT_FILE_DIR = CMakeFiles/tspline-lib.dir/src/main/cpp/tspline
 build CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/tessellator.cpp.o: CXX_COMPILER__tspline-lib ../../../../src/main/cpp/tspline/tessellator.cpp || cmake_order_depends_target_tspline-lib
-  DEFINES = -Dtspline_lib_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dtspline_lib_EXPORTS
   DEP_FILE = CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/tessellator.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/tspline/tessellator.cpp
   OBJECT_DIR = CMakeFiles/tspline-lib.dir
   OBJECT_FILE_DIR = CMakeFiles/tspline-lib.dir/src/main/cpp/tspline
 build CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/validator.cpp.o: CXX_COMPILER__tspline-lib ../../../../src/main/cpp/tspline/validator.cpp || cmake_order_depends_target_tspline-lib
-  DEFINES = -Dtspline_lib_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dtspline_lib_EXPORTS
   DEP_FILE = CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/validator.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/tspline/validator.cpp
   OBJECT_DIR = CMakeFiles/tspline-lib.dir
@@ -482,7 +482,7 @@ build CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/validator.cpp.o: CXX_COMPI
 # Link the shared library ../../../../build/intermediates/cmake/release/obj/x86_64/libtspline-lib.so
 
 build ../../../../build/intermediates/cmake/release/obj/x86_64/libtspline-lib.so: CXX_SHARED_LIBRARY_LINKER__tspline-lib CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/utils.cpp.o CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/basis.cpp.o CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/convert.cpp.o CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/splbase.cpp.o CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/tspline.cpp.o CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/factory.cpp.o CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/virtual.cpp.o CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/tjunction.cpp.o CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/multiplicity.cpp.o CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/visitor.cpp.o CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/finder.cpp.o CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/extractor.cpp.o CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/editor.cpp.o CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/derivator.cpp.o CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/cross.cpp.o CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/trimesh.cpp.o CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/tessellator.cpp.o CMakeFiles/tspline-lib.dir/src/main/cpp/tspline/validator.cpp.o | ../../../../build/intermediates/cmake/release/obj/x86_64/libnewmat-lib.so || ../../../../build/intermediates/cmake/release/obj/x86_64/libnewmat-lib.so
-  LANGUAGE_COMPILE_FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG
+  LANGUAGE_COMPILE_FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG
   LINK_FLAGS = -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now
   LINK_LIBRARIES = ../../../../build/intermediates/cmake/release/obj/x86_64/libnewmat-lib.so -lm "/home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/libgnustl_static.a"
   OBJECT_DIR = CMakeFiles/tspline-lib.dir
@@ -501,7 +501,7 @@ build ../../../../build/intermediates/cmake/release/obj/x86_64/libtspline-lib.so
 
 build cmake_order_depends_target_main2: phony || ../../../../build/intermediates/cmake/release/obj/x86_64/libnewmat-lib.so ../../../../build/intermediates/cmake/release/obj/x86_64/librhbuilder-lib.so ../../../../build/intermediates/cmake/release/obj/x86_64/libtspline-lib.so ndk_helper/libndk-helper.a
 build CMakeFiles/main2.dir/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue/android_native_app_glue.c.o: C_COMPILER__main2 /home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue/android_native_app_glue.c || cmake_order_depends_target_main2
-  DEFINES = -Dmain2_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dmain2_EXPORTS
   DEP_FILE = CMakeFiles/main2.dir/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue/android_native_app_glue.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I/home/alex/Android/Sdk/ndk-bundle/sources/android/cpufeatures -I/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue -I../../../../src/main/cpp/ndk_helper -I../../../../src/main/cpp -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/rhbuilder
@@ -509,25 +509,25 @@ build CMakeFiles/main2.dir/home/alex/Android/Sdk/ndk-bundle/sources/android/nati
   OBJECT_DIR = CMakeFiles/main2.dir
   OBJECT_FILE_DIR = CMakeFiles/main2.dir/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue
 build CMakeFiles/main2.dir/src/main/cpp/TsplineNativeActivity2.cpp.o: CXX_COMPILER__main2 ../../../../src/main/cpp/TsplineNativeActivity2.cpp || cmake_order_depends_target_main2
-  DEFINES = -Dmain2_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dmain2_EXPORTS
   DEP_FILE = CMakeFiles/main2.dir/src/main/cpp/TsplineNativeActivity2.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I/home/alex/Android/Sdk/ndk-bundle/sources/android/cpufeatures -I/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue -I../../../../src/main/cpp/ndk_helper -I../../../../src/main/cpp -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/TsplineNativeActivity2.cpp
   OBJECT_DIR = CMakeFiles/main2.dir
   OBJECT_FILE_DIR = CMakeFiles/main2.dir/src/main/cpp
 build CMakeFiles/main2.dir/src/main/cpp/TsplineRenderer2.cpp.o: CXX_COMPILER__main2 ../../../../src/main/cpp/TsplineRenderer2.cpp || cmake_order_depends_target_main2
-  DEFINES = -Dmain2_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dmain2_EXPORTS
   DEP_FILE = CMakeFiles/main2.dir/src/main/cpp/TsplineRenderer2.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I/home/alex/Android/Sdk/ndk-bundle/sources/android/cpufeatures -I/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue -I../../../../src/main/cpp/ndk_helper -I../../../../src/main/cpp -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/TsplineRenderer2.cpp
   OBJECT_DIR = CMakeFiles/main2.dir
   OBJECT_FILE_DIR = CMakeFiles/main2.dir/src/main/cpp
 build CMakeFiles/main2.dir/src/main/cpp/FileReader.cpp.o: CXX_COMPILER__main2 ../../../../src/main/cpp/FileReader.cpp || cmake_order_depends_target_main2
-  DEFINES = -Dmain2_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dmain2_EXPORTS
   DEP_FILE = CMakeFiles/main2.dir/src/main/cpp/FileReader.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I/home/alex/Android/Sdk/ndk-bundle/sources/android/cpufeatures -I/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue -I../../../../src/main/cpp/ndk_helper -I../../../../src/main/cpp -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/FileReader.cpp
   OBJECT_DIR = CMakeFiles/main2.dir
@@ -541,7 +541,7 @@ build CMakeFiles/main2.dir/src/main/cpp/FileReader.cpp.o: CXX_COMPILER__main2 ..
 # Link the shared library ../../../../build/intermediates/cmake/release/obj/x86_64/libmain2.so
 
 build ../../../../build/intermediates/cmake/release/obj/x86_64/libmain2.so: CXX_SHARED_LIBRARY_LINKER__main2 CMakeFiles/main2.dir/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue/android_native_app_glue.c.o CMakeFiles/main2.dir/src/main/cpp/TsplineNativeActivity2.cpp.o CMakeFiles/main2.dir/src/main/cpp/TsplineRenderer2.cpp.o CMakeFiles/main2.dir/src/main/cpp/FileReader.cpp.o | ndk_helper/libndk-helper.a ../../../../build/intermediates/cmake/release/obj/x86_64/librhbuilder-lib.so ../../../../build/intermediates/cmake/release/obj/x86_64/libtspline-lib.so ../../../../build/intermediates/cmake/release/obj/x86_64/libnewmat-lib.so || ../../../../build/intermediates/cmake/release/obj/x86_64/libnewmat-lib.so ../../../../build/intermediates/cmake/release/obj/x86_64/librhbuilder-lib.so ../../../../build/intermediates/cmake/release/obj/x86_64/libtspline-lib.so ndk_helper/libndk-helper.a
-  LANGUAGE_COMPILE_FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG
+  LANGUAGE_COMPILE_FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG
   LINK_FLAGS = -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now
   LINK_LIBRARIES = -landroid -latomic -lEGL -lGLESv2 -llog ndk_helper/libndk-helper.a ../../../../build/intermediates/cmake/release/obj/x86_64/librhbuilder-lib.so ../../../../build/intermediates/cmake/release/obj/x86_64/libtspline-lib.so ../../../../build/intermediates/cmake/release/obj/x86_64/libnewmat-lib.so -lm "/home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/libgnustl_static.a"
   OBJECT_DIR = CMakeFiles/main2.dir
@@ -560,7 +560,7 @@ build ../../../../build/intermediates/cmake/release/obj/x86_64/libmain2.so: CXX_
 
 build cmake_order_depends_target_main: phony || ../../../../build/intermediates/cmake/release/obj/x86_64/libnewmat-lib.so ../../../../build/intermediates/cmake/release/obj/x86_64/librhbuilder-lib.so ../../../../build/intermediates/cmake/release/obj/x86_64/libtspline-lib.so ndk_helper/libndk-helper.a
 build CMakeFiles/main.dir/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue/android_native_app_glue.c.o: C_COMPILER__main /home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue/android_native_app_glue.c || cmake_order_depends_target_main
-  DEFINES = -Dmain_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dmain_EXPORTS
   DEP_FILE = CMakeFiles/main.dir/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue/android_native_app_glue.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I/home/alex/Android/Sdk/ndk-bundle/sources/android/cpufeatures -I/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue -I../../../../src/main/cpp/ndk_helper -I../../../../src/main/cpp -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/rhbuilder
@@ -568,33 +568,33 @@ build CMakeFiles/main.dir/home/alex/Android/Sdk/ndk-bundle/sources/android/nativ
   OBJECT_DIR = CMakeFiles/main.dir
   OBJECT_FILE_DIR = CMakeFiles/main.dir/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue
 build CMakeFiles/main.dir/src/main/cpp/TsplineNativeActivity.cpp.o: CXX_COMPILER__main ../../../../src/main/cpp/TsplineNativeActivity.cpp || cmake_order_depends_target_main
-  DEFINES = -Dmain_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dmain_EXPORTS
   DEP_FILE = CMakeFiles/main.dir/src/main/cpp/TsplineNativeActivity.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I/home/alex/Android/Sdk/ndk-bundle/sources/android/cpufeatures -I/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue -I../../../../src/main/cpp/ndk_helper -I../../../../src/main/cpp -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/TsplineNativeActivity.cpp
   OBJECT_DIR = CMakeFiles/main.dir
   OBJECT_FILE_DIR = CMakeFiles/main.dir/src/main/cpp
 build CMakeFiles/main.dir/src/main/cpp/TsplineRenderer.cpp.o: CXX_COMPILER__main ../../../../src/main/cpp/TsplineRenderer.cpp || cmake_order_depends_target_main
-  DEFINES = -Dmain_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dmain_EXPORTS
   DEP_FILE = CMakeFiles/main.dir/src/main/cpp/TsplineRenderer.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I/home/alex/Android/Sdk/ndk-bundle/sources/android/cpufeatures -I/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue -I../../../../src/main/cpp/ndk_helper -I../../../../src/main/cpp -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/TsplineRenderer.cpp
   OBJECT_DIR = CMakeFiles/main.dir
   OBJECT_FILE_DIR = CMakeFiles/main.dir/src/main/cpp
 build CMakeFiles/main.dir/src/main/cpp/mouse.cpp.o: CXX_COMPILER__main ../../../../src/main/cpp/mouse.cpp || cmake_order_depends_target_main
-  DEFINES = -Dmain_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dmain_EXPORTS
   DEP_FILE = CMakeFiles/main.dir/src/main/cpp/mouse.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I/home/alex/Android/Sdk/ndk-bundle/sources/android/cpufeatures -I/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue -I../../../../src/main/cpp/ndk_helper -I../../../../src/main/cpp -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/mouse.cpp
   OBJECT_DIR = CMakeFiles/main.dir
   OBJECT_FILE_DIR = CMakeFiles/main.dir/src/main/cpp
 build CMakeFiles/main.dir/src/main/cpp/simple.cpp.o: CXX_COMPILER__main ../../../../src/main/cpp/simple.cpp || cmake_order_depends_target_main
-  DEFINES = -Dmain_EXPORTS
+  DEFINES = -DMATRIX_FORM -Dmain_EXPORTS
   DEP_FILE = CMakeFiles/main.dir/src/main/cpp/simple.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I/home/alex/Android/Sdk/ndk-bundle/sources/android/cpufeatures -I/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue -I../../../../src/main/cpp/ndk_helper -I../../../../src/main/cpp -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/simple.cpp
   OBJECT_DIR = CMakeFiles/main.dir
@@ -608,7 +608,7 @@ build CMakeFiles/main.dir/src/main/cpp/simple.cpp.o: CXX_COMPILER__main ../../..
 # Link the shared library ../../../../build/intermediates/cmake/release/obj/x86_64/libmain.so
 
 build ../../../../build/intermediates/cmake/release/obj/x86_64/libmain.so: CXX_SHARED_LIBRARY_LINKER__main CMakeFiles/main.dir/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue/android_native_app_glue.c.o CMakeFiles/main.dir/src/main/cpp/TsplineNativeActivity.cpp.o CMakeFiles/main.dir/src/main/cpp/TsplineRenderer.cpp.o CMakeFiles/main.dir/src/main/cpp/mouse.cpp.o CMakeFiles/main.dir/src/main/cpp/simple.cpp.o | ndk_helper/libndk-helper.a ../../../../build/intermediates/cmake/release/obj/x86_64/librhbuilder-lib.so ../../../../build/intermediates/cmake/release/obj/x86_64/libtspline-lib.so ../../../../build/intermediates/cmake/release/obj/x86_64/libnewmat-lib.so || ../../../../build/intermediates/cmake/release/obj/x86_64/libnewmat-lib.so ../../../../build/intermediates/cmake/release/obj/x86_64/librhbuilder-lib.so ../../../../build/intermediates/cmake/release/obj/x86_64/libtspline-lib.so ndk_helper/libndk-helper.a
-  LANGUAGE_COMPILE_FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG
+  LANGUAGE_COMPILE_FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG
   LINK_FLAGS = -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now
   LINK_LIBRARIES = -landroid -latomic -lEGL -lGLESv2 -llog ndk_helper/libndk-helper.a ../../../../build/intermediates/cmake/release/obj/x86_64/librhbuilder-lib.so ../../../../build/intermediates/cmake/release/obj/x86_64/libtspline-lib.so ../../../../build/intermediates/cmake/release/obj/x86_64/libnewmat-lib.so -lm "/home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/libgnustl_static.a"
   OBJECT_DIR = CMakeFiles/main.dir
@@ -627,71 +627,81 @@ build ../../../../build/intermediates/cmake/release/obj/x86_64/libmain.so: CXX_S
 # Object build statements for STATIC_LIBRARY target ndk-helper
 
 build ndk_helper/CMakeFiles/ndk-helper.dir/gestureDetector.cpp.o: CXX_COMPILER__ndk-helper ../../../../src/main/cpp/ndk_helper/gestureDetector.cpp
+  DEFINES = -DMATRIX_FORM
   DEP_FILE = ndk_helper/CMakeFiles/ndk-helper.dir/gestureDetector.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/ndk_helper/gestureDetector.cpp
   OBJECT_DIR = ndk_helper/CMakeFiles/ndk-helper.dir
   OBJECT_FILE_DIR = ndk_helper/CMakeFiles/ndk-helper.dir
 build ndk_helper/CMakeFiles/ndk-helper.dir/gl3stub.cpp.o: CXX_COMPILER__ndk-helper ../../../../src/main/cpp/ndk_helper/gl3stub.cpp
+  DEFINES = -DMATRIX_FORM
   DEP_FILE = ndk_helper/CMakeFiles/ndk-helper.dir/gl3stub.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/ndk_helper/gl3stub.cpp
   OBJECT_DIR = ndk_helper/CMakeFiles/ndk-helper.dir
   OBJECT_FILE_DIR = ndk_helper/CMakeFiles/ndk-helper.dir
 build ndk_helper/CMakeFiles/ndk-helper.dir/GLContext.cpp.o: CXX_COMPILER__ndk-helper ../../../../src/main/cpp/ndk_helper/GLContext.cpp
+  DEFINES = -DMATRIX_FORM
   DEP_FILE = ndk_helper/CMakeFiles/ndk-helper.dir/GLContext.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/ndk_helper/GLContext.cpp
   OBJECT_DIR = ndk_helper/CMakeFiles/ndk-helper.dir
   OBJECT_FILE_DIR = ndk_helper/CMakeFiles/ndk-helper.dir
 build ndk_helper/CMakeFiles/ndk-helper.dir/interpolator.cpp.o: CXX_COMPILER__ndk-helper ../../../../src/main/cpp/ndk_helper/interpolator.cpp
+  DEFINES = -DMATRIX_FORM
   DEP_FILE = ndk_helper/CMakeFiles/ndk-helper.dir/interpolator.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/ndk_helper/interpolator.cpp
   OBJECT_DIR = ndk_helper/CMakeFiles/ndk-helper.dir
   OBJECT_FILE_DIR = ndk_helper/CMakeFiles/ndk-helper.dir
 build ndk_helper/CMakeFiles/ndk-helper.dir/JNIHelper.cpp.o: CXX_COMPILER__ndk-helper ../../../../src/main/cpp/ndk_helper/JNIHelper.cpp
+  DEFINES = -DMATRIX_FORM
   DEP_FILE = ndk_helper/CMakeFiles/ndk-helper.dir/JNIHelper.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/ndk_helper/JNIHelper.cpp
   OBJECT_DIR = ndk_helper/CMakeFiles/ndk-helper.dir
   OBJECT_FILE_DIR = ndk_helper/CMakeFiles/ndk-helper.dir
 build ndk_helper/CMakeFiles/ndk-helper.dir/perfMonitor.cpp.o: CXX_COMPILER__ndk-helper ../../../../src/main/cpp/ndk_helper/perfMonitor.cpp
+  DEFINES = -DMATRIX_FORM
   DEP_FILE = ndk_helper/CMakeFiles/ndk-helper.dir/perfMonitor.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/ndk_helper/perfMonitor.cpp
   OBJECT_DIR = ndk_helper/CMakeFiles/ndk-helper.dir
   OBJECT_FILE_DIR = ndk_helper/CMakeFiles/ndk-helper.dir
 build ndk_helper/CMakeFiles/ndk-helper.dir/sensorManager.cpp.o: CXX_COMPILER__ndk-helper ../../../../src/main/cpp/ndk_helper/sensorManager.cpp
+  DEFINES = -DMATRIX_FORM
   DEP_FILE = ndk_helper/CMakeFiles/ndk-helper.dir/sensorManager.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/ndk_helper/sensorManager.cpp
   OBJECT_DIR = ndk_helper/CMakeFiles/ndk-helper.dir
   OBJECT_FILE_DIR = ndk_helper/CMakeFiles/ndk-helper.dir
 build ndk_helper/CMakeFiles/ndk-helper.dir/shader.cpp.o: CXX_COMPILER__ndk-helper ../../../../src/main/cpp/ndk_helper/shader.cpp
+  DEFINES = -DMATRIX_FORM
   DEP_FILE = ndk_helper/CMakeFiles/ndk-helper.dir/shader.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/ndk_helper/shader.cpp
   OBJECT_DIR = ndk_helper/CMakeFiles/ndk-helper.dir
   OBJECT_FILE_DIR = ndk_helper/CMakeFiles/ndk-helper.dir
 build ndk_helper/CMakeFiles/ndk-helper.dir/tapCamera.cpp.o: CXX_COMPILER__ndk-helper ../../../../src/main/cpp/ndk_helper/tapCamera.cpp
+  DEFINES = -DMATRIX_FORM
   DEP_FILE = ndk_helper/CMakeFiles/ndk-helper.dir/tapCamera.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/ndk_helper/tapCamera.cpp
   OBJECT_DIR = ndk_helper/CMakeFiles/ndk-helper.dir
   OBJECT_FILE_DIR = ndk_helper/CMakeFiles/ndk-helper.dir
 build ndk_helper/CMakeFiles/ndk-helper.dir/vecmath.cpp.o: CXX_COMPILER__ndk-helper ../../../../src/main/cpp/ndk_helper/vecmath.cpp
+  DEFINES = -DMATRIX_FORM
   DEP_FILE = ndk_helper/CMakeFiles/ndk-helper.dir/vecmath.cpp.o.d
-  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -I/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
   IN_ABS = /home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/ndk_helper/vecmath.cpp
   OBJECT_DIR = ndk_helper/CMakeFiles/ndk-helper.dir
@@ -705,7 +715,7 @@ build ndk_helper/CMakeFiles/ndk-helper.dir/vecmath.cpp.o: CXX_COMPILER__ndk-help
 # Link the static library ndk_helper/libndk-helper.a
 
 build ndk_helper/libndk-helper.a: CXX_STATIC_LIBRARY_LINKER__ndk-helper ndk_helper/CMakeFiles/ndk-helper.dir/gestureDetector.cpp.o ndk_helper/CMakeFiles/ndk-helper.dir/gl3stub.cpp.o ndk_helper/CMakeFiles/ndk-helper.dir/GLContext.cpp.o ndk_helper/CMakeFiles/ndk-helper.dir/interpolator.cpp.o ndk_helper/CMakeFiles/ndk-helper.dir/JNIHelper.cpp.o ndk_helper/CMakeFiles/ndk-helper.dir/perfMonitor.cpp.o ndk_helper/CMakeFiles/ndk-helper.dir/sensorManager.cpp.o ndk_helper/CMakeFiles/ndk-helper.dir/shader.cpp.o ndk_helper/CMakeFiles/ndk-helper.dir/tapCamera.cpp.o ndk_helper/CMakeFiles/ndk-helper.dir/vecmath.cpp.o
-  LANGUAGE_COMPILE_FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG
+  LANGUAGE_COMPILE_FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -lz -O2 -DNDEBUG -O2 -DNDEBUG
   OBJECT_DIR = ndk_helper/CMakeFiles/ndk-helper.dir
   POST_BUILD = :
   PRE_LINK = :

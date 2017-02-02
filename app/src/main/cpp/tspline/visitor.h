@@ -48,8 +48,8 @@ Revision_history:
 #ifndef VISITORS_H
 #define VISITORS_H
 
-#include "utils.h"
-#include "tjunction.h"
+#include <utils.h>
+#include <tjunction.h>
 
 #ifdef use_namespace
 namespace TSPLINE {

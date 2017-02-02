@@ -34,8 +34,7 @@ Revision_history:
 -------------------------------------------------------------------------------
 */
 
-#include "virtual.h"
-#include <string>
+#include <virtual.h>
 
 #ifdef use_namespace
 namespace TSPLINE {

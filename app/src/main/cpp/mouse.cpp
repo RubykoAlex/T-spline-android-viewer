@@ -63,7 +63,7 @@ void MouseDemo::createMouse()
 	createTPointset();
 	createTVertices();
 	createTEdges();
- 	createTLinks();
+	createTLinks();
 	createTEdgeConditions();
 	createTFaces();
 	createTNodes();
@@ -138,7 +138,7 @@ void MouseDemo::createTVertices()
 void MouseDemo::createTEdges() // v
 {
 	_factory->createTEdge("e0");
-	_factory->createTEdge("e1"); 
+	_factory->createTEdge("e1");
 	_factory->createTEdge("e2");
 	_factory->createTEdge("e3");
 	_factory->createTEdge("e4");
@@ -310,7 +310,7 @@ void MouseDemo::createTNodes() // v
 	_factory->createTNodeV4("n1-2");
 	_factory->createTNodeV4("n1-3");
 	_factory->createTNodeV4("n2-0"); // v
-	_factory->createTNodeV4("n2-1"); 
+	_factory->createTNodeV4("n2-1");
 	_factory->createTNodeV4("n3-0"); // v
 	_factory->createTNodeV4("n3-1");
 	_factory->createTNodeV4("n3-2");
@@ -318,7 +318,7 @@ void MouseDemo::createTNodes() // v
 	_factory->createTNodeV4("n3-4");
 	_factory->createTNodeV4("n3-5");
 	_factory->createTNodeV4("n3-6");
-	_factory->createTNodeV4("n3-7"); 
+	_factory->createTNodeV4("n3-7");
 	_factory->createTNodeV4("n4-0"); // v
 	_factory->createTNodeV4("n4-1");
 	_factory->createTNodeV4("n5-0"); // v

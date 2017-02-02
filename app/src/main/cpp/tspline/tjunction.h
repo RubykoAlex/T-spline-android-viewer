@@ -49,9 +49,9 @@ Revision_history:
 #ifndef TJUNCTION_H
 #define TJUNCTION_H
 
-#include "basis.h"
-#include "tspline.h"
-#include "virtual.h"
+#include <basis.h>
+#include <tspline.h>
+#include <virtual.h>
 
 #ifdef use_namespace
 namespace TSPLINE {

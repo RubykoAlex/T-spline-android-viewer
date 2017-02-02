@@ -49,6 +49,7 @@ Revision_history:
 #ifndef MOUSE_H
 #define MOUSE_H
 
+
 #include "factory.h"
 
 #ifdef use_namespace

@@ -14,19 +14,14 @@
  * limitations under the License.
  */
 
-//--------------------------------------------------------------------------------
-// TeapotRenderer.cpp
-// Render a teapot
-//--------------------------------------------------------------------------------
+
 //--------------------------------------------------------------------------------
 // Include files
 //--------------------------------------------------------------------------------
 
 #include "TsplineRenderer2.h"
 
-//--------------------------------------------------------------------------------
-// Teapot model data
-//--------------------------------------------------------------------------------
+
 
 #include "mouse.h"
 #include "simple.h"
@@ -58,7 +53,7 @@ void TsplineRenderer::Init() {
   std::string splinename = spline->getName();
   TTessellator tessellator(spline);
   tessellator.setResolution(0.05);
-   TriMeshPtr trimesh = tessellator.interpolateAll();
+  TriMeshPtr trimesh = tessellator.interpolateAll();
   TImagePtr image = spline->getTImage();
 
 
@@ -147,14 +142,14 @@ void TsplineRenderer::UpdateViewport() {
   const float CAM_FAR = 10000.f;
   if (viewport[2] < viewport[3]) {
     float aspect =
-        static_cast<float>(viewport[2]) / static_cast<float>(viewport[3]);
+            static_cast<float>(viewport[2]) / static_cast<float>(viewport[3]);
     mat_projection_ =
-        ndk_helper::Mat4::Perspective(aspect, 1.0f, CAM_NEAR, CAM_FAR);
+            ndk_helper::Mat4::Perspective(aspect, 1.0f, CAM_NEAR, CAM_FAR);
   } else {
     float aspect =
-        static_cast<float>(viewport[3]) / static_cast<float>(viewport[2]);
+            static_cast<float>(viewport[3]) / static_cast<float>(viewport[2]);
     mat_projection_ =
-        ndk_helper::Mat4::Perspective(1.0f, aspect, CAM_NEAR, CAM_FAR);
+            ndk_helper::Mat4::Perspective(1.0f, aspect, CAM_NEAR, CAM_FAR);
   }
 }
 
@@ -217,7 +212,7 @@ void TsplineRenderer::Render() {
   glUseProgram(shader_param_.program_);
 
   TEAPOT_MATERIALS material = {
-      {1.0f, 0.5f, 0.5f}, {1.0f, 1.0f, 1.0f, 10.f}, {0.1f, 0.1f, 0.1f}, };
+          {1.0f, 0.5f, 0.5f}, {1.0f, 1.0f, 1.0f, 10.f}, {0.1f, 0.1f, 0.1f}, };
 
   // Update uniforms
   glUniform4f(shader_param_.material_diffuse_, material.diffuse_color[0],
@@ -245,7 +240,7 @@ void TsplineRenderer::Render() {
 }
 
 bool TsplineRenderer::LoadShaders(SHADER_PARAMS* params, const char* strVsh,
-                                 const char* strFsh) {
+                                  const char* strFsh) {
   GLuint program;
   GLuint vert_shader, frag_shader;
 
@@ -308,7 +303,7 @@ bool TsplineRenderer::LoadShaders(SHADER_PARAMS* params, const char* strVsh,
   params->material_diffuse_ = glGetUniformLocation(program, "vMaterialDiffuse");
   params->material_ambient_ = glGetUniformLocation(program, "vMaterialAmbient");
   params->material_specular_ =
-      glGetUniformLocation(program, "vMaterialSpecular");
+          glGetUniformLocation(program, "vMaterialSpecular");
 
   // Release vertex and fragment shaders
   if (vert_shader) glDeleteShader(vert_shader);

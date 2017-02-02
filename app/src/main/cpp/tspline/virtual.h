@@ -49,8 +49,8 @@ Revision_history:
 #ifndef VIRTUALS_H
 #define VIRTUALS_H
 
-#include "utils.h"
-#include "tspline.h"
+#include <utils.h>
+#include <tspline.h>
 
 #ifdef use_namespace
 namespace TSPLINE {

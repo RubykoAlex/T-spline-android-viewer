@@ -61,7 +61,7 @@ Revision_history:
 #include <vector>
 #include <list>
 #include <set>
-#include <hash_map>
+//#include <hash_map>
 #include <algorithm>
 #include <functional>
 #include <iostream>
@@ -72,11 +72,9 @@ Revision_history:
 #define WANT_MATH                    /* include.h will get math fns */
                                      /* newmatap.h will get include.h */
 
-#include "../newmat/newmatap.h"             /* need matrix applications */
+#include "newmatap.h"                /* need matrix applications */
 
-#include "../newmat/newmatio.h"              /* need matrix output routines */
-
-
+#include "newmatio.h"                /* need matrix output routines */
 
 #ifdef use_namespace
 namespace TSPLINE {
@@ -105,6 +103,7 @@ namespace TSPLINE {
 	typedef std::set<nm##Ptr> ab##Set; \
 	typedef ab##Set::iterator ab##SIterator; \
 	typedef ab##Set::const_iterator ab##SConstIterator;
+
 #ifndef M_PI
 #define M_PI 3.14159265358979
 #endif
@@ -197,16 +196,27 @@ inline bool isEven(int value)
 }
 
 /** Check if float value is near to zero. */
-inline Real isZero(Real value)
+inline bool isZero(Real value)
 {
-	if(abs(value) < M_EPS)
-		return 0;
+	if(fabs(value) < M_EPS)
+		return true;
 	else
-		return value;
+		return false;
 }
 
+/** Check if x is equal to y. */
+inline bool isEqual(Real x, Real y)
+{
+	return isZero(x-y);
+}
 
-
+/** Calculate the tensor product between two column vectors. */
+inline ReturnMatrix TensorProduct(const Matrix &a, const Matrix& b)
+{
+	Matrix tensor = a.AsColumn() * b.AsRow();
+	tensor.Release();
+	return tensor;
+}
 
 #ifdef use_namespace
 }

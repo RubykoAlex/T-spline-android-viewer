@@ -34,9 +34,9 @@ Revision_history:
 -------------------------------------------------------------------------------
 */
 
-#include "factory.h"
-#include "visitor.h"
-#include "extractor.h"
+#include <factory.h>
+#include <visitor.h>
+#include <extractor.h>
 
 #ifdef use_namespace
 namespace TSPLINE {

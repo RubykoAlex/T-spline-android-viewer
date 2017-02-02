@@ -49,7 +49,7 @@ Revision_history:
 #ifndef VALIDATOR_H
 #define VALIDATOR_H
 
-#include "tspline.h"
+#include <tspline.h>
 
 #ifdef use_namespace
 namespace TSPLINE {

@@ -48,7 +48,7 @@ Revision_history:
 #ifndef FINDER_H
 #define FINDER_H
 
-#include "tspline.h"
+#include <tspline.h>
 
 #ifdef use_namespace
 namespace TSPLINE {

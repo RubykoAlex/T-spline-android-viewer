@@ -49,8 +49,8 @@ Revision_history:
 #ifndef EXTRACTOR_H
 #define EXTRACTOR_H
 
-#include "tspline.h"
-#include "cross.h"
+#include <tspline.h>
+#include <cross.h>
 
 #ifdef use_namespace
 namespace TSPLINE {
@@ -129,6 +129,9 @@ public:
 
 	/** Extract the parameter from a T-vertex*/
 	static Parameter extractParameterFromTVertex(const TVertexPtr &vertex);
+	
+	/** Extract the maximum parameter from a T-spline*/
+	static Parameter extractParameterFromTSpline(const TSplinePtr &spline);
 
 	/** Extract T-vertices from a T-face*/
 	static TVtxVector extractTVerticesFromTFace(const TFacePtr &face);
@@ -141,6 +144,5 @@ DECLARE_SMARTPTR(TExtractor)
 #ifdef use_namespace
 }
 #endif
-
 
 #endif
