@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">T-spline</string>
+    <string name="fps">FSP</string>
+    <string name="text_login_fied">File name</string>
+</resources>

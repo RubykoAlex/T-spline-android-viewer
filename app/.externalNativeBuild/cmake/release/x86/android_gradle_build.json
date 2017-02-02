@@ -1,0 +1,487 @@
+
+{
+	"buildFiles" : 
+	[
+		"/home/alex/AndroidStudioProjects/T_spline/app/CMakeLists.txt",
+		"/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/ndk_helper/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/home/alex/Android/Sdk/cmake/3.6.3155560/bin/cmake --build /home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"main-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "main",
+			"buildCommand" : "/home/alex/Android/Sdk/cmake/3.6.3155560/bin/cmake --build /home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86 --target main",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86 -Dmain_EXPORTS -I/home/alex/Android/Sdk/ndk-bundle/sources/android/cpufeatures -I/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue -I../../../../src/main/cpp/ndk_helper -I../../../../src/main/cpp -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/rhbuilder  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue/android_native_app_glue.c",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dmain_EXPORTS -I/home/alex/Android/Sdk/ndk-bundle/sources/android/cpufeatures -I/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue -I../../../../src/main/cpp/ndk_helper -I../../../../src/main/cpp -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/TsplineNativeActivity.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dmain_EXPORTS -I/home/alex/Android/Sdk/ndk-bundle/sources/android/cpufeatures -I/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue -I../../../../src/main/cpp/ndk_helper -I../../../../src/main/cpp -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/TsplineRenderer.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dmain_EXPORTS -I/home/alex/Android/Sdk/ndk-bundle/sources/android/cpufeatures -I/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue -I../../../../src/main/cpp/ndk_helper -I../../../../src/main/cpp -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/mouse.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dmain_EXPORTS -I/home/alex/Android/Sdk/ndk-bundle/sources/android/cpufeatures -I/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue -I../../../../src/main/cpp/ndk_helper -I../../../../src/main/cpp -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/simple.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				}
+			],
+			"output" : "/home/alex/AndroidStudioProjects/T_spline/app/build/intermediates/cmake/release/obj/x86/libmain.so",
+			"toolchain" : "1958009949224442459"
+		},
+		"main2-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "main2",
+			"buildCommand" : "/home/alex/Android/Sdk/cmake/3.6.3155560/bin/cmake --build /home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86 --target main2",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86 -Dmain2_EXPORTS -I/home/alex/Android/Sdk/ndk-bundle/sources/android/cpufeatures -I/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue -I../../../../src/main/cpp/ndk_helper -I../../../../src/main/cpp -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/rhbuilder  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue/android_native_app_glue.c",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dmain2_EXPORTS -I/home/alex/Android/Sdk/ndk-bundle/sources/android/cpufeatures -I/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue -I../../../../src/main/cpp/ndk_helper -I../../../../src/main/cpp -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/TsplineNativeActivity2.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dmain2_EXPORTS -I/home/alex/Android/Sdk/ndk-bundle/sources/android/cpufeatures -I/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue -I../../../../src/main/cpp/ndk_helper -I../../../../src/main/cpp -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/TsplineRenderer2.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dmain2_EXPORTS -I/home/alex/Android/Sdk/ndk-bundle/sources/android/cpufeatures -I/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue -I../../../../src/main/cpp/ndk_helper -I../../../../src/main/cpp -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/FileReader.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				}
+			],
+			"output" : "/home/alex/AndroidStudioProjects/T_spline/app/build/intermediates/cmake/release/obj/x86/libmain2.so",
+			"toolchain" : "1958009949224442459"
+		},
+		"ndk-helper-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "ndk-helper",
+			"buildCommand" : "/home/alex/Android/Sdk/cmake/3.6.3155560/bin/cmake --build /home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86 --target ndk-helper",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86   -I/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/ndk_helper/gestureDetector.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86   -I/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/ndk_helper/gl3stub.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86   -I/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/ndk_helper/GLContext.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86   -I/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/ndk_helper/interpolator.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86   -I/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/ndk_helper/JNIHelper.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86   -I/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/ndk_helper/perfMonitor.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86   -I/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/ndk_helper/sensorManager.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86   -I/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/ndk_helper/shader.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86   -I/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/ndk_helper/tapCamera.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86   -I/home/alex/Android/Sdk/ndk-bundle/sources/android/native_app_glue -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/ndk_helper/vecmath.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				}
+			],
+			"output" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86/ndk_helper/libndk-helper.a",
+			"toolchain" : "1958009949224442459"
+		},
+		"newmat-lib-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "newmat-lib",
+			"buildCommand" : "/home/alex/Android/Sdk/cmake/3.6.3155560/bin/cmake --build /home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86 --target newmat-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dnewmat_lib_EXPORTS -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/bandmat.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dnewmat_lib_EXPORTS -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/cholesky.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dnewmat_lib_EXPORTS -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/evalue.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dnewmat_lib_EXPORTS -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/fft.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dnewmat_lib_EXPORTS -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/hholder.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dnewmat_lib_EXPORTS -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/jacobi.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dnewmat_lib_EXPORTS -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/myexcept.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dnewmat_lib_EXPORTS -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/newmat1.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dnewmat_lib_EXPORTS -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/newmat2.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dnewmat_lib_EXPORTS -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/newmat3.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dnewmat_lib_EXPORTS -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/newmat4.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dnewmat_lib_EXPORTS -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/newmat5.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dnewmat_lib_EXPORTS -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/newmat6.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dnewmat_lib_EXPORTS -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/newmat7.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dnewmat_lib_EXPORTS -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/newmat8.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dnewmat_lib_EXPORTS -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/newmat9.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dnewmat_lib_EXPORTS -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/newmatex.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dnewmat_lib_EXPORTS -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/newmatnl.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dnewmat_lib_EXPORTS -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/newmatrm.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dnewmat_lib_EXPORTS -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/solution.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dnewmat_lib_EXPORTS -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/sort.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dnewmat_lib_EXPORTS -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/submat.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dnewmat_lib_EXPORTS -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/svd.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dnewmat_lib_EXPORTS -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/newfft.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dnewmat_lib_EXPORTS -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/newmat/nm_misc.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				}
+			],
+			"output" : "/home/alex/AndroidStudioProjects/T_spline/app/build/intermediates/cmake/release/obj/x86/libnewmat-lib.so",
+			"toolchain" : "1958009949224442459"
+		},
+		"rhbuilder-lib-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "rhbuilder-lib",
+			"buildCommand" : "/home/alex/Android/Sdk/cmake/3.6.3155560/bin/cmake --build /home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86 --target rhbuilder-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Drhbuilder_lib_EXPORTS -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/rhbuilder/rhparser.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Drhbuilder_lib_EXPORTS -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/rhbuilder/rhspreader.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Drhbuilder_lib_EXPORTS -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/rhbuilder/rhbuilder.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				}
+			],
+			"output" : "/home/alex/AndroidStudioProjects/T_spline/app/build/intermediates/cmake/release/obj/x86/librhbuilder-lib.so",
+			"toolchain" : "1958009949224442459"
+		},
+		"tspline-lib-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "tspline-lib",
+			"buildCommand" : "/home/alex/Android/Sdk/cmake/3.6.3155560/bin/cmake --build /home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86 --target tspline-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dtspline_lib_EXPORTS -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/tspline/utils.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dtspline_lib_EXPORTS -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/tspline/basis.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dtspline_lib_EXPORTS -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/tspline/convert.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dtspline_lib_EXPORTS -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/tspline/splbase.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dtspline_lib_EXPORTS -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/tspline/tspline.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dtspline_lib_EXPORTS -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/tspline/factory.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dtspline_lib_EXPORTS -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/tspline/virtual.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dtspline_lib_EXPORTS -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/tspline/tjunction.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dtspline_lib_EXPORTS -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/tspline/multiplicity.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dtspline_lib_EXPORTS -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/tspline/visitor.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dtspline_lib_EXPORTS -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/tspline/finder.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dtspline_lib_EXPORTS -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/tspline/extractor.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dtspline_lib_EXPORTS -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/tspline/editor.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dtspline_lib_EXPORTS -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/tspline/derivator.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dtspline_lib_EXPORTS -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/tspline/cross.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dtspline_lib_EXPORTS -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/tspline/trimesh.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dtspline_lib_EXPORTS -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/tspline/tessellator.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /home/alex/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/alex/Android/Sdk/ndk-bundle/platforms/android-19/arch-x86  -Dtspline_lib_EXPORTS -I../../../../src/main/cpp/newmat -I../../../../src/main/cpp/tspline -I../../../../src/main/cpp/rhbuilder -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /home/alex/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fexceptions -std=gnu++11 -Wall -fexceptions -fno-rtti -landroid -O2 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/alex/AndroidStudioProjects/T_spline/app/src/main/cpp/tspline/validator.cpp",
+					"workingDirectory" : "/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/x86"
+				}
+			],
+			"output" : "/home/alex/AndroidStudioProjects/T_spline/app/build/intermediates/cmake/release/obj/x86/libtspline-lib.so",
+			"toolchain" : "1958009949224442459"
+		}
+	},
+	"toolchains" : 
+	{
+		"1958009949224442459" : 
+		{
+			"cCompilerExecutable" : "/home/alex/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/alex/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

@@ -1,0 +1,15 @@
+Executable : /home/alex/Android/Sdk/cmake/3.6.3155560/bin/cmake
+arguments : 
+-H/home/alex/AndroidStudioProjects/T_spline/app
+-B/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/arm64-v8a
+-GAndroid Gradle - Ninja
+-DANDROID_ABI=arm64-v8a
+-DANDROID_NDK=/home/alex/Android/Sdk/ndk-bundle
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/alex/AndroidStudioProjects/T_spline/app/build/intermediates/cmake/release/obj/arm64-v8a
+-DCMAKE_BUILD_TYPE=Release
+-DCMAKE_MAKE_PROGRAM=/home/alex/Android/Sdk/cmake/3.6.3155560/bin/ninja
+-DCMAKE_TOOLCHAIN_FILE=/home/alex/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+-DANDROID_NATIVE_API_LEVEL=21
+-DCMAKE_CXX_FLAGS=-fexceptions
+jvmArgs : 
+

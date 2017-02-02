@@ -1,0 +1,10 @@
+/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/rebuild_cache.dir
+/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/edit_cache.dir
+/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/rhbuilder-lib.dir
+/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/newmat-lib.dir
+/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/tspline-lib.dir
+/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/main2.dir
+/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/main.dir
+/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/debug/mips64/ndk_helper/CMakeFiles/edit_cache.dir
+/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/debug/mips64/ndk_helper/CMakeFiles/rebuild_cache.dir
+/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/debug/mips64/ndk_helper/CMakeFiles/ndk-helper.dir

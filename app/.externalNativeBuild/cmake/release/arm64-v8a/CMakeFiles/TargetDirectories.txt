@@ -1,0 +1,10 @@
+/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/edit_cache.dir
+/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/rhbuilder-lib.dir
+/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/newmat-lib.dir
+/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/tspline-lib.dir
+/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/main2.dir
+/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/main.dir
+/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/arm64-v8a/ndk_helper/CMakeFiles/edit_cache.dir
+/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/arm64-v8a/ndk_helper/CMakeFiles/rebuild_cache.dir
+/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/arm64-v8a/ndk_helper/CMakeFiles/ndk-helper.dir

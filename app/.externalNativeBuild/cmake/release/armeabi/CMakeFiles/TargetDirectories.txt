@@ -1,0 +1,10 @@
+/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/rebuild_cache.dir
+/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/edit_cache.dir
+/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/rhbuilder-lib.dir
+/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/newmat-lib.dir
+/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/tspline-lib.dir
+/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/main2.dir
+/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/main.dir
+/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/armeabi/ndk_helper/CMakeFiles/edit_cache.dir
+/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/armeabi/ndk_helper/CMakeFiles/rebuild_cache.dir
+/home/alex/AndroidStudioProjects/T_spline/app/.externalNativeBuild/cmake/release/armeabi/ndk_helper/CMakeFiles/ndk-helper.dir
