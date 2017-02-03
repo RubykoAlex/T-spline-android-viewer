@@ -38,6 +38,6 @@ Usage:
 
 1. "Show demo" button: displays hard coded T-spline model
 
-2. "File name" field: here the file name you want to load have to be specified. It should be one of the files from assets/rhino     folder (you do not need to write .tsm at the end of the file name)
+2. "File name" field: here the file name you want to load have to be specified. It should be one of the files from assets/rhino     folder (you do not need to write ".tsm" at the end of the file name)
 
 3. "Load model" button: loads and displays the model specified in the  "File name" field
