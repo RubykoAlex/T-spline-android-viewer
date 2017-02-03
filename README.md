@@ -14,7 +14,7 @@ Used sources:
 
 1. T-SPLINE Library: https://github.com/GrapeTec/T-SPLINE.git 
           
-2. Android NDK samples with Android Studio: https://github.com/googlesamples/android-ndk.git
+2. Android NDK samples with Android Studio (teapots): https://github.com/googlesamples/android-ndk.git
 
 
 Structure:
