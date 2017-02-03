@@ -7,7 +7,7 @@ Author: Oleksandr Zavalnyi
 
 Overview:
 
-This application is built on the T-SPLINE kernel (written in C++). The kernel reads a t-mesh file (*.tsm), converts it into the T-spline model and generates its trimesh representation on an android device. Using OpenGL API the trimesh data can be further displayed on the device screen. 
+This application is built on the T-SPLINE kernel (written in C++). The kernel reads a T-Splines mesh file (*.tsm), converts it into the T-spline model and generates its trimesh representation on an android device. Using OpenGL API the trimesh data can be further displayed on the device screen. 
 
 
 Used sources:
@@ -23,7 +23,7 @@ Structure:
 
 2. Main used libraries:  newmat-lib (used for calculations),
                          tspline-lib (T-SPLINE kernel),
-                         rhbuilder-lib (used for parsing of t-mesh fines and converting them into T-spline models)
+                         rhbuilder-lib (used for parsing of T-Splines mesh fines and converting them into T-spline models)
  
  
  
