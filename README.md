@@ -1,5 +1,5 @@
 ﻿# T-spline-android-viewer
-T-spline android viewer allows to read *.tsm files and display T-spline models on an android devices
+T-spline android viewer allows to read *.tsm files and display T-spline models on android devices
 
 
 Author: Oleksandr Zavalnyi
