@@ -19,11 +19,11 @@ Used sources:
 
 Structure:
 
-1. Input t-mesh files (*.tsm) are put in the assets folder.
+1. Input T-Splines mesh files (*.tsm) are put in the assets folder.
 
 2. Main used libraries:  newmat-lib (used for calculations),
                          tspline-lib (T-SPLINE kernel),
-                         rhbuilder-lib (used for parsing of T-Splines mesh fines and converting them into T-spline models)
+                         rhbuilder-lib (used for parsing T-Splines mesh fines and converting them into T-spline models)
  
  
  
